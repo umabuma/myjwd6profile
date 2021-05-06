@@ -2,6 +2,7 @@ body {
   padding: 0px;
   margin: 0px;
   font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 13px;
 }
 header {
   text-align: center;
@@ -14,8 +15,7 @@ header > img {
 
 /* Add a  background color to the top navigation */
 nav {
-   background-color: rgb(209, 206, 206);
-  
+  background-color: rgb(209, 206, 206);
 }
 
 /* Style the links inside the navigation bar */
@@ -24,8 +24,7 @@ nav a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1.5em;
- 
+  font-size: 2em;
 }
 
 /* Change the colour of links on hover */
@@ -47,8 +46,7 @@ nav a:hover {
 
 /*  page content */
 .pagecontent {
-
-  font-size: 3 em;
+  font-size: 1.5em;
   width: 70%;
   /* border: 3px solid #000000; */
   margin: auto;
@@ -68,6 +66,7 @@ nav a:hover {
 .about {
   width: 70%;
   margin: auto;
+  text-align: justify;
 }
 
 /** begin contact  **/
@@ -80,7 +79,7 @@ nav a:hover {
   width: 70%;
   margin: auto;
 
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 input[type="text"] {
@@ -112,5 +111,5 @@ input[type="submit"]:hover {
 footer {
   padding-top: 40px;
   text-align: center;
- 
+  font-size: 1em;
 }
